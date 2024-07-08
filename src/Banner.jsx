@@ -11,7 +11,7 @@ const Banner = () => {
       // Speed settings, try diffrent values untill you get good results
       startDelay: 100,
       typeSpeed: 50,
-      backSpeed: 100,
+      backSpeed: 170,
       backDelay: 100
     });
 
@@ -23,9 +23,9 @@ const Banner = () => {
 
   },[])
   return (
-    <div className='main-content flex items-center '>
+    <div className='main-content flex items-center flex-col md:flex-row'>
         
-        <div className=' w-full flex justify-center  '>
+        <div className=' w-full  flex justify-center  '>
            <div className='w-2/3 ms-10'>
            <h3 className="text-3xl font-semibold">Hi,I am</h3>
             <h1 className=" mt-4 text-5xl font-bold">Tahir Khan</h1>
@@ -40,11 +40,11 @@ const Banner = () => {
             
             </div>
             <br/>
-            <a className="px-3 py-2 bg-orange-500 shadow-lg rounded-full" href='/contact'>Contact Me</a>
+            <a className="px-3 py-2 bg-orange-500 shadow-lg rounded-full" href='https://www.linkedin.com/in/tahir-khan-4968952b1/' target='_blank'>Contact Me</a>
            </div>
         </div>
       <div className=' w-full flex justify-center'>
-        <img className="rounded-sm shadow-lg w-fit" src={Ban}/>
+        <img className=" rounded-full shadow-lg w-1/2" src={Ban}/>
       </div>
     </div>
   ) 

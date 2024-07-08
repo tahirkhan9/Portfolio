@@ -33,7 +33,7 @@ const Header = () => {
     ])
   return (
     <>
-      <div className=" h-20 border Main flex justify-between items-center px-16 bg-gray-300">
+      <div className=" h-20 border Main hidden  md:flex justify-between items-center px-16 bg-gray-300">
       <div>
        <h1 className='text-2xl font-bold'>{brandName}</h1>
     </div>
@@ -58,7 +58,7 @@ const Header = () => {
 
 
      <div>
-        <button className='px-3 py-2 bg-orange-600 text-white rounded-full'>{btnName}</button>
+        <a href='https://www.linkedin.com/in/tahir-khan-4968952b1/' target="_blank" className='px-3 py-2 bg-orange-600 text-white rounded-full'>{btnName}</a>
      </div>
      </div>
     </>

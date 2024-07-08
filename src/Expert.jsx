@@ -6,15 +6,17 @@ const Expert = () => {
     <div className='Main-container my14'>
         <h1 className='text-4xl font-bold text-center underline'>My Expertise</h1>
         {/* Expertise Section */}
-        <div className="box-container flex space-y-4 my-14">
+        <div className="box-container flex space-y-4 my-14 flex-col md:flex-row">
             <div className='flex justify-center'>
             {/* Text */}
 
             <div className='w-2/3 space-y-4 text-center'>
             <h1 className='text-4xl font-bold '>I love these Technologies</h1>
             <p>Web developer in Frontend Technologies. Has good sense of UI and UX design. Loves coding in Javascript and React. Familiar with Angular, NodeJS, AngularJS, AWS.</p>
-            
-            <button className='bg-orange-500 px-3 py-2 rounded-full shadow-lg '>Hire Me</button>
+
+            {/* <a href='https://www.linkedin.com/in/tahir-khan-4968952b1/' target="_blank" className='px-3 py-2 bg-orange-600 text-white rounded-full pt-4'>Hire Me</a> */}
+           
+            <button  className='bg-orange-500 px-3 py-2 rounded-full shadow-lg text-white '>Hire Me</button>
 
             
             </div>

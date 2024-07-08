@@ -5,11 +5,14 @@ const Services = () => {
         <>
             <div className="Main-container py-10">
                 <h1 className="text-5xl font-bold underline text-center">My Services</h1>
-                <div className='services-container flex space-x-6 mt-12 px-10 '>
+                <div className='services-container flex space-x-6 mt-12 px-10 flex-col md:flex-row '>
                     <div className=' bg-slate-200 text-center p-5 shadow-lg hover:bg-gray-100 rounded-xl space-y-4'>
                         <i class=" text-4xl fa-brands fa-aws"></i>
                         <h1 className="text-4xl font-bold ">Web Development</h1>
-                        <p>Web developer in Frontend Technologies. Has good sense of UI and UX design. Loves coding in Javascript and React. Familiar with Angular, NodeJS, AngularJS, AWS.</p>
+                        <p>Web developer in Frontend Technologies.
+                             Has good sense of UI and UX design.
+                              Loves coding in Javascript and React.
+                               Familiar with Angular, NodeJS, AngularJS, AWS.</p>
 
 
                     </div>
