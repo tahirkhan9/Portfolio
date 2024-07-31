@@ -33,7 +33,8 @@ const Header = () => {
     ])
   return (
     <>
-      <div className=" h-20 border Main hidden  md:flex justify-between items-center px-16 bg-gray-300">
+      <div className=" h-10 border Main hidden w-full  md:flex justify-between items-center px-16 bg-gray-300 fixed
+       z-50">
       <div>
        <h1 className='text-2xl font-bold'>{brandName}</h1>
     </div>

@@ -7,6 +7,7 @@ const Banner = () => {
 
   useEffect(()=>{
     const typed = new Typed(el.current, {
+      
       strings: ["Frontend Developer", "Web Developer", "UI UX Designer"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 100,
@@ -23,10 +24,10 @@ const Banner = () => {
 
   },[])
   return (
-    <div className='main-content flex items-center flex-col md:flex-row'>
+    <div className='main-content flex lg:items-center flex-col lg:flex-row '>
         
-        <div className=' w-full  flex justify-center  '>
-           <div className='w-2/3 ms-10'>
+        <div className=' w-full  flex justify-center  mt-20 '>
+           <div className='w-2/3 '>
            <h3 className="text-3xl font-semibold">Hi,I am</h3>
             <h1 className=" mt-4 text-5xl font-bold">Tahir Khan</h1>
             <h2 className=" mt-4 text-3xl"> And I,am  <span className='font-bold underline-' ref={el}></span></h2>

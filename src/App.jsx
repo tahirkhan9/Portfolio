@@ -1,7 +1,7 @@
 
 import './App.css';
 import Banner from './Banner';
-import Header from './Header';
+import Home from './Home';
 import About from './About';
 import Services from './Services';
 import Expert from './Expert';
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       
        
-      <Header/>
+      <Home/>
       <Banner/>
       <About/>
       <Services/>
