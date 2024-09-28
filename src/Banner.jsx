@@ -39,7 +39,7 @@ const Banner = () => {
 
               <a href='https://www.linkedin.com/in/tahir-khan-4968952b1/' target="_blank"><i class="fa-brands fa-linkedin"></i> </a>
 
-              <a href='https://token2049events.info/' target="_blank"><i class="fa-solid fa-globe"></i></a>
+              <a href='https://pregnancy-tracker-tau.vercel.app/' target="_blank"><i class="fa-solid fa-globe"></i></a>
 
             </div>
             
