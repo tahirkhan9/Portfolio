@@ -1,9 +1,9 @@
 
 import './App.css';
-import Banner from './Banner';
 import Home from './Home';
+import Navbar from './Navbar';
 import About from './About';
-import Services from './Services';
+import Portfolio from './Portfolio';
 import Expert from './Expert';
 import Footer from './Footer';
 function App() {
@@ -11,10 +11,10 @@ function App() {
     <div className="App">
       
        
+      <Navbar/>
       <Home/>
-      <Banner/>
       <About/>
-      <Services/>
+      <Portfolio/>
       <Expert/>
       <Footer/>
     </div>

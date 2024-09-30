@@ -16,7 +16,7 @@ const About = () => {
         <h1 className='text-4xl pb-16 font-bold underline  text-center'>About Me</h1>
         <div className="profile flex items-center justify-between flex-col md:flex-row">
         {/* image  */}
-        <div className="w-1/3 flex justify-center ">
+        <div className="w-1/4 flex justify-center ">
             <img className='rounded-full px-5'src={data.image}/>
         </div>
         {/* content */}
