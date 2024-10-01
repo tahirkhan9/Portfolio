@@ -3,8 +3,8 @@ import React from 'react'
 const Expert = () => {
   return (
     <>
-    <div name="Expert" className='Main-container my14'>
-        <h1 className='text-4xl font-bold text-center underline'>My Expertise</h1>
+    <div name="Expert" className='Main-container my14 md:px-20'>
+        <h1 className='text-2xl md:text-4xl font-bold text-center underline'>My Expertise</h1>
         {/* Expertise Section */}
         <div className="box-container flex space-y-4 my-14 flex-col md:flex-row">
             <div className='flex justify-center'>

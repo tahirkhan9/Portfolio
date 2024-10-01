@@ -25,7 +25,7 @@ const Banner = () => {
 
   }, [])
   return (
-    <div  name="Home" className='main-content flex lg:items-center flex-col lg:flex-row '>
+    <div  name="Home" className='main-content flex lg:items-center flex-col lg:flex-row md:px-20 '>
 
       <div className=' w-full  flex justify-center  mt-20 '>
         <div className='w-2/3 '>
@@ -37,13 +37,11 @@ const Banner = () => {
             <div className='space-x-2 '>
               <a href='https://github.com/tahirkhan9' target='_blank'><i class="fa-brands fa-github" aria-hidden="true"></i></a>
 
-              <a href='https://www.linkedin.com/in/tahir-khan-4968952b1/' target="_blank"><i class="fa-brands fa-linkedin"></i> </a>
 
               <a href='https://pregnancy-tracker-tau.vercel.app/' target="_blank"><i class="fa-solid fa-globe"></i></a>
 
-              <a href='https://pregnancy-tracker-tau.vercel.app/' target="_blank"><i class="fas fa-briefcase"></i></a>
+              <a href='https://socialfaim.com/' target="_blank"><i class="fas fa-briefcase"></i></a>
 
-              <a href='https://token2049events.info/' target="_blank"><i class="fa-brands fa-web-awesome"></i></a>
 
 
 

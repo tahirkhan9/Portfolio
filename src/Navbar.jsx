@@ -30,7 +30,7 @@ const Header = () => {
       <div>
        <h1 className='text-2xl font-bold'>{brandName}</h1>
     </div>
-    <div className='space-x-6'>
+    <div className='space-x-6 '>
     <ul className='hidden md:flex space-x-9 mr-9 '>
               {
                 navItems.map(({ id, text }) => (

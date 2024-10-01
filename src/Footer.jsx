@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-    <div  className="py-5 bg-gray-200 flex justify-between px-64 flex-col lg:flex-row">
+    <div  className="py-5 bg-gray-200 flex justify-between px-64 flex-col lg:flex-row md:px-20">
        <div>
         <p>@2024 Tahir Khan <span>All Rights Reserved</span></p>
        </div>
